@@ -168,4 +168,39 @@ blockquote {
   text-align: left;
   font-size: 15px;
 }
+
+#columnHeads {
+  font-weight: lighter;
+  background-color: #74638f;
+  color: white;
+  border: black;
+  border-style: solid;
+  border-width: thin;
+  padding: 10px;
+}
+
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+thead, tfoot{
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+tbody{
+  font-size: 15px;
+  text-align: center;
+  border-bottom: rebeccapurple;
+  border-width: thin;
+  border-style: solid;
+}
+
+table {
+  margin: auto;
+}
 </style>
